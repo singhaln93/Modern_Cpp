@@ -9,6 +9,23 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+include_directories("${PROJECT_SOURCE_DIR}/src")
+file(GLOB_RECURSE LIB_SOURCES "src/*.cpp" "src/*/*.cpp")
+file(GLOB_RECURSE TEST_SOURCES "test/*.cpp")
+
+add_library(fibonacci SHARED ${LIB_SOURCES})
+install (TARGETS fibonacci DESTINATION lib)
+
+find_package(Git REQUIRED)
+find_package(Catch2 REQUIRED)
+add_executable(tests ${TEST_SOURCES})
+target_link_libraries(tests PRIVATE fibonacci Catch2::Catch2)
+
+include(CTest)
+include(Catch)
+catch_discover_tests(tests)
+
+# For application
 add_definitions(-DDEBUG=1)
 
 if (MSVC)
@@ -19,4 +36,4 @@ else()
     add_compile_options(-Wall -Wextra -pedantic -Werror)
 endif()
 
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} ${LIB_SOURCES})

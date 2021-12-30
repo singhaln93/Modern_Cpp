@@ -11,5 +11,8 @@ fi
 
 mkdir -p build.ninja && cd build.ninja &&
     cmake .. -G Ninja && ninja
-clear
+#clear
+echo "Test Results..."
+./tests
+echo "Output..."
 ./Mordern_Cpp
