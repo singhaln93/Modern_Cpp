@@ -1,0 +1,7 @@
+@startuml diagramName
+Object <|-- ArrayList
+
+Object : equals()
+ArrayList : Object[] elementData
+ArrayList : size()
+@enduml
