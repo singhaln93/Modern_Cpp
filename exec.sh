@@ -4,5 +4,8 @@
 #!/bin/bash
 mkdir -p build && cd build &&
     cmake .. && make
-#clear
+clear
+echo "Test Results..."
+./tests
+echo "Output..."
 ./Mordern_Cpp

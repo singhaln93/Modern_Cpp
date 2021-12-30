@@ -6,5 +6,5 @@ make clean -C build/
 rm -rf build
 make clean -C build.ninja/
 rm -rf build.ninja
-#clear
-#echo "Cleaning build directories..."
+clear
+echo "Cleaning build directories..."
