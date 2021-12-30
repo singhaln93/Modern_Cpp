@@ -9,6 +9,7 @@ if [ -z $ninja_supported ]; then
     exit
 fi
 
+cd ..
 mkdir -p build.ninja && cd build.ninja &&
     cmake .. -G Ninja && ninja
 #clear

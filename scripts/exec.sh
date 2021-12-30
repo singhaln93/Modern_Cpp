@@ -2,6 +2,7 @@
 # All rights reserved
 
 #!/bin/bash
+cd ..
 mkdir -p build && cd build &&
     cmake .. && make
 clear
