@@ -2,6 +2,7 @@
 # All rights reserved
 
 #!/bin/bash
+cd ..
 make clean -C build/
 rm -rf build
 make clean -C build.ninja/
