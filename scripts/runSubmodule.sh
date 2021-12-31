@@ -17,8 +17,9 @@ function getSubmoduleNames {
 ### START ###
 while read line; do
   getSubmoduleNames "$line"
-#hashNumber=(git submodule status|cut -d ' ' -f 1-2)
-#submoduleName=$(git submodule status|cut -d ' ' -f 3-4)
-#url=$(cat .gitmodules|grep "url"|cut -d ' ' -f 3-4)
-done< <(echo "$(git submodule status|cut -d ' ' -f 3-4)" "$(cat ../.gitmodules|grep "url"|cut -d ' ' -f 3-4)")
+  hashNumber=$(git submodule status|cut -d ' ' -f 1-2)
+  submoduleName=$(git submodule status|cut -d ' ' -f 3-4)
+  url=$(cat ../.gitmodules|grep "url"|cut -d ' ' -f 3-4)
+  echo $submoduleName $url>>../dep/README.md 
+done
 ### END ###
