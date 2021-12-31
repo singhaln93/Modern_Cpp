@@ -2,13 +2,18 @@
 # All rights reserved
 
 #!/bin/bash
-ninja_supported=$(cmake --help | grep Ninja)
+NINJA_SUPPORTED=$(cmake --help | grep Ninja)
+NINJA_VERSION=$(ninja --version)
 
-if [ -z $ninja_supported ]; then
+if [ -z "$NINJA_SUPPORTED" ]; then
     echo "Ninja not supported"
     exit
+else
+    echo -e "Ninja:" $NINJA_VERSION
 fi
 
+
+### START ###
 cd ..
 mkdir -p build.ninja && cd build.ninja &&
     cmake .. -G Ninja && ninja
@@ -17,3 +22,4 @@ echo "Test Results..."
 ./tests
 echo "Output..."
 ./Mordern_Cpp
+### END ###

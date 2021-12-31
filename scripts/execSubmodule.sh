@@ -2,4 +2,6 @@
 # All rights reserved
 
 #!/bin/bash
+### START ###
 ./submodule.sh>../dep/Dependencies.md  
+### END ###
