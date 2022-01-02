@@ -3,6 +3,8 @@
 
 #!/bin/bash
 ### START ###
+DOXYGEN_VERSION=$(doxygen --version)
+echo -e "Doxygen:"  $DOXYGEN_VERSION
 cd ..
 doxygen scripts/Doxygen/doxyfile.conf
 ### END ###
