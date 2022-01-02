@@ -8,15 +8,9 @@
 #include <string_view>
 
 /**
- * Info:199711L stands for Year=1997, Month = 11 (i.e., November of 1997) 
+ * Info:199711L stands for Year=1997, Month = 11 (i.e., November of 1997)
  * The date when the committee approved the standard that the rest of the ISO
  * approved in early 1998
- */
-
-/**
- * Compile command:$ g++ -std=c++2a {FLAGS} main.cpp -o obj
- * {FLAGS}
- * -fmodules-ts for CPP20 modules
  */
 #define CPP98 199711L
 #define CPP03 CPP98 ///>value remain unchanged
@@ -51,3 +45,14 @@ void printCppStandard()
         std::cout << "pre-standard C++\n"
                   << __cplusplus;
 }
+
+/**
+ * !IMPORTANT:
+ * Compile command:$ g++ -std=c++20 {FLAGS} <file_name.cpp> -o <obj_name.cpp>
+ * Character Count: g++ -std=c++20 -E <file_name.cpp> |wc -c (bytes)
+ * Executing Time Command: time g++ -std=c++20 {FLAGS} <file_name.cpp> -o <obj_name.cpp>
+ * 
+ * Precompile Header to Module: g++ -std=c++20 -fmodules-ts -xc++-system-header <header_name>
+ * {FLAGS} https://caiorss.github.io/C-Cpp-Notes/compiler-flags-options.html
+ * -fmodules-ts for CPP20 modules
+ */
