@@ -30,7 +30,7 @@ For more examples, please refer to the [Documentation](https://neeraj2k18.github
 
 <!--change and Release Log -->
 ### Change Log
-Change log can be viewed here. See `CHANGELOG` for more information.
+[Change log](CHANGELOG.md) can be viewed here.
 
 ### Release Log
 [Release log](https://github.com/Neeraj2K18/Mordern_Cpp/releases) can be viewed here.
