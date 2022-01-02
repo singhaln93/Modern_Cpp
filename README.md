@@ -2,9 +2,7 @@
 
 ### Folder structure
     .
-    ├── build/                      # build files from exec.sh <untracked by git>
-    ├── build.ninja/                # build files from exec_ninja.sh <untracked by git>
-    ├── dep/                        # dependencies (upcoming feature)
+    ├── dep/                        # dependencies
     ├── docs/                       # docs-html generated files from doxygen linked with gh pages
     ├── scripts/                    # scripts for automation
     │   ├── clang-format/
@@ -14,8 +12,9 @@
     ├── src/                        # source files directory
     ├── test/                       # unit test directory
         └── mainTest.hpp            # main test header
-    ├── uml/                        # Plant Uml (upcoming feature)
+    ├── uml/                        # Plant Uml
         └── Uml.plantuml
+    ├── CHANGELOG.md 
     ├── CMakeLists.txt              # Main CMakeLists.txt
     ├── LICENSE         
     └── README.md   
