@@ -34,3 +34,4 @@
 # Build Directories
 build/
 build.ninja/
+.vscode/
