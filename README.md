@@ -27,3 +27,14 @@ Use short lowercase names at least for the top-level files and folders except `L
 tree -L 2
 ```
 For more examples, please refer to the [Documentation](https://neeraj2k18.github.io/Mordern_Cpp//)
+
+<!--change and Release Log -->
+### Change Log
+Change log can be viewed here. See `CHANGELOG` for more information.
+
+### Release Log
+[Release log](https://github.com/Neeraj2K18/Mordern_Cpp/releases) can be viewed here.
+
+<!-- LICENSE -->
+### License
+Distributed under the MIT License. See `LICENSE` for more information.
