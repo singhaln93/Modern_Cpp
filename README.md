@@ -25,7 +25,7 @@ Use short lowercase names at least for the top-level files and folders except `L
 ```bash
 tree -L 2
 ```
-For more examples, please refer to the [Doxygen documentation](https://neeraj2k18.github.io/Mordern_Cpp/docs/Doxygen/index.html) and for [Code coverage](https://neeraj2k18.github.io/Mordern_Cpp/docs/gcov-html/index.html) 
+For more examples, please refer to the [Doxygen documentation](https://neeraj2k18.github.io/Mordern_Cpp/docs/doxygen-html/index.html) and for [Code coverage](https://neeraj2k18.github.io/Mordern_Cpp/docs/gcov-html/index.html) 
 
 <!--change and Release Log -->
 ### Change Log
