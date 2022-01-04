@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Mordern_Cpp: lib/lib.cpp File Reference</title>
+<title>Mordern_Cpp: src/main.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,7 +65,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('lib_8cpp.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -86,84 +86,43 @@ $(document).ready(function(){initNavTree('lib_8cpp.html',''); initResizable(); }
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">lib.cpp File Reference</div></div>
+  <div class="headertitle"><div class="title">main.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="lib_8hpp_source.html">lib.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="fibonacci_8hpp_source.html">fibonacci.hpp</a>&quot;</code><br />
+<code>#include &quot;../lib/lib.hpp&quot;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;spdlog/spdlog.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for lib.cpp:</div>
+Include dependency graph for main.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="lib_8cpp__incl.png" border="0" usemap="#alib_2lib_8cpp" alt=""/></div>
-<map name="alib_2lib_8cpp" id="alib_2lib_8cpp">
-<area shape="rect" title=" " alt="" coords="292,5,377,32"/>
-<area shape="rect" href="lib_8hpp.html" title=" " alt="" coords="301,80,368,107"/>
-<area shape="rect" title=" " alt="" coords="5,155,72,181"/>
-<area shape="rect" title=" " alt="" coords="97,155,170,181"/>
-<area shape="rect" title=" " alt="" coords="195,155,275,181"/>
-<area shape="rect" title=" " alt="" coords="299,155,371,181"/>
-<area shape="rect" title=" " alt="" coords="395,155,469,181"/>
-<area shape="rect" title=" " alt="" coords="493,155,552,181"/>
-<area shape="rect" title=" " alt="" coords="577,155,639,181"/>
+<div class="center"><img src="main_8cpp__incl.png" border="0" usemap="#asrc_2main_8cpp" alt=""/></div>
+<map name="asrc_2main_8cpp" id="asrc_2main_8cpp">
+<area shape="rect" title=" " alt="" coords="248,5,353,32"/>
+<area shape="rect" href="fibonacci_8hpp.html" title=" " alt="" coords="5,80,113,107"/>
+<area shape="rect" title=" " alt="" coords="138,80,237,107"/>
+<area shape="rect" title=" " alt="" coords="261,80,341,107"/>
+<area shape="rect" title=" " alt="" coords="365,80,428,107"/>
+<area shape="rect" title=" " alt="" coords="452,80,576,107"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1c04a0dc5da30e703a638eb74d00d779"><td class="memItemLeft" align="right" valign="top"><a id="a1c04a0dc5da30e703a638eb74d00d779" name="a1c04a0dc5da30e703a638eb74d00d779"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>printHelloWorld</b> ()</td></tr>
-<tr class="memdesc:a1c04a0dc5da30e703a638eb74d00d779"><td class="mdescLeft">&#160;</td><td class="mdescRight">sayHello function <br /></td></tr>
-<tr class="separator:a1c04a0dc5da30e703a638eb74d00d779"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b9328a02d0d6ad7ca8a67507a84a34f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lib_8cpp.html#a6b9328a02d0d6ad7ca8a67507a84a34f">randomNumberGenerator</a> (const int &amp;min, const int &amp;max)</td></tr>
-<tr class="memdesc:a6b9328a02d0d6ad7ca8a67507a84a34f"><td class="mdescLeft">&#160;</td><td class="mdescRight">generate random number  <a href="lib_8cpp.html#a6b9328a02d0d6ad7ca8a67507a84a34f">More...</a><br /></td></tr>
-<tr class="separator:a6b9328a02d0d6ad7ca8a67507a84a34f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top"><a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>main</b> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Copyright © 2021 Neeraj Singhal All rights reserved </p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="a6b9328a02d0d6ad7ca8a67507a84a34f" name="a6b9328a02d0d6ad7ca8a67507a84a34f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b9328a02d0d6ad7ca8a67507a84a34f">&#9670;&nbsp;</a></span>randomNumberGenerator()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int randomNumberGenerator </td>
-          <td>(</td>
-          <td class="paramtype">const int &amp;&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const int &amp;&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>generate random number </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">min</td><td>minimum value </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>maximum value </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>int generated random number </dd></dl>
-
-</div>
-</div>
-</div><!-- contents -->
+<div class="textblock"><dl class="section author"><dt>Author</dt><dd>Neeraj Singhal </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2021-12-30 </dd></dl>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="lib_8cpp.html">lib.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="main_8cpp.html">main.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
