@@ -20,6 +20,9 @@
 #define CPP20 202002L
 #define CPP23 0 ///>TBD
 
+/**
+ * @brief print cpp standard
+ */
 void printCppStandard()
 {
     std::string msg{"\nDefault cpp standard:"};
