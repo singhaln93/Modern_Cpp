@@ -9,7 +9,7 @@
 #include <iostream>
 #include <vector>
 
-//#define FMT_HEADER_ONLY
+#define FMT_HEADER_ONLY
 #include "spdlog/spdlog.h"
 
 int main()
