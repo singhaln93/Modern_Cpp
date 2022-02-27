@@ -12,6 +12,7 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include <concepts>
 
 /**
  * @brief sayHello function
@@ -25,3 +26,18 @@ void printHelloWorld();
  * @return int generated random number
  */
 int randomNumberGenerator(const int &, const int &);
+
+/**
+ * @brief
+ * @param vec
+ * @return double
+ */
+auto norm(const std::vector<double> &vec) -> double
+{
+    double result{0};
+    for (size_t i = 0; i < vec.size(); ++i)
+    {
+        result += vec[i] * vec[i];
+    }
+    return std::sqrt(result);
+}

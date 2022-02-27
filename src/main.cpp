@@ -17,6 +17,8 @@ int main()
 #ifdef DEBUG
   printHelloWorld();
 #endif
+  std::vector<double> a = {3, 4};
+  std::cout << "norm: " << norm(a) << std::endl;
   std::cout << "Result fib(10)= " << fibonacci(10) << std::endl;
 
   spdlog::info("Welcome to spdlog!");

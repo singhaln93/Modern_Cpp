@@ -1,3 +1,8 @@
+<a href="https://github.com/Neeraj2K18/Mordern_Cpp/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Neeraj2K18/Mordern_Cpp"></a>
+<a href="https://github.com/Neeraj2K18/Mordern_Cpp/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Neeraj2K18/Mordern_Cpp"></a>
+<a href="https://github.com/Neeraj2K18/Mordern_Cpp/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Neeraj2K18/Mordern_Cpp"></a>
+[![pages-build-deployment](https://github.com/Neeraj2K18/Mordern_Cpp/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/Neeraj2K18/Mordern_Cpp/actions/workflows/pages/pages-build-deployment)
+---
 # Mordern_Cpp
 Mordern Cpp features
 <!-- ABOUT THE PROJECT -->
@@ -43,10 +48,6 @@ See the [open issues](https://github.com/Neeraj2K18/Mordern_Cpp/issues) for a li
 
 ### Release Log
 [Release log](https://github.com/Neeraj2K18/Mordern_Cpp/releases) can be viewed here.
-
-<!-- LICENSE -->
-### License
-Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See [LICENSE](LICENSE) for more information.
 
 <!--Acknowledgements -->
 ### Acknowledgements
