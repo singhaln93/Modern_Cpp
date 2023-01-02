@@ -4,8 +4,8 @@ Modern Cpp features
 <a href="https://github.com/Neeraj2K18/Mordern_Cpp/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Neeraj2K18/Mordern_Cpp"></a>
 <a href="https://github.com/Neeraj2K18/Mordern_Cpp/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Neeraj2K18/Mordern_Cpp"></a>
 <a href="https://github.com/Neeraj2K18/Mordern_Cpp/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Neeraj2K18/Mordern_Cpp"></a>\
-[![CMake](https://github.com/Neeraj2K18/Mordern_Cpp/actions/workflows/cmake.yml/badge.svg)](https://github.com/Neeraj2K18/Mordern_Cpp/actions/workflows/cmake.yml)
-[![pages-build-deployment](https://github.com/Neeraj2K18/Mordern_Cpp/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/Neeraj2K18/Mordern_Cpp/actions/workflows/pages/pages-build-deployment)
+[![CMake CI](https://github.com/Neeraj2K18/Modern_Cpp/actions/workflows/cmake.yml/badge.svg?branch=main)](https://github.com/Neeraj2K18/Modern_Cpp/actions/workflows/cmake.yml)
+[![GitHub Pages CI](https://github.com/Neeraj2K18/Modern_Cpp/actions/workflows/pages.yml/badge.svg?branch=main)](https://github.com/Neeraj2K18/Modern_Cpp/actions/workflows/pages.yml)
 
 ## Installation
 ```bash
@@ -14,18 +14,14 @@ yay cmake
 ## Folder structure
     .
     ├── dep/                        # dependencies
-    ├── docs/                       # docs-html generated files from doxygen linked with gh pages
-    ├── scripts/                    # scripts for automation
-    │   ├── clang-format/
-    │   ├── cmake/
-    │   ├── Doxygen/
-    │   └── git/
+    ├── docs/                       # documentation
+    ├── lib/                        # library files directory
+    ├── scripts/                    # scripts/miscellaneous
     ├── src/                        # source files directory
     ├── test/                       # unit test directory
-        └── mainTest.hpp            # main test header
+    │   └── mainTest.hpp            # main test header
     ├── uml/                        # Plant Uml
-        └── Uml.plantuml
-    ├── CHANGELOG.md 
+    │   └── Uml.plantuml
     ├── CMakeLists.txt              # Main CMakeLists.txt
     ├── LICENSE         
     └── README.md   
