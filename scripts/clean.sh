@@ -1,4 +1,4 @@
-# Copyright © 2021  Neeraj Singhal
+# Copyright © 2023 Neeraj Singhal
 # All rights reserved
 
 #!/bin/bash

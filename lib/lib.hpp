@@ -1,7 +1,6 @@
 /**
  * @file lib.hpp
- * Copyright © 2021  Neeraj Singhal
- * All rights reserved
+ * @author Neeraj Singhal
  */
 
 #pragma once

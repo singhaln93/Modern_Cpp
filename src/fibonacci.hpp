@@ -1,7 +1,6 @@
 /**
  * @file fibonacci.hpp
  * @author Neeraj Singhal
- * @date 2021-12-30
  */
 
 #pragma once

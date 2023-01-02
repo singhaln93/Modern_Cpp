@@ -1,7 +1,6 @@
 /**
  * @file main.cpp
  * @author Neeraj Singhal
- * @date 2021-12-30
  */
 
 #include "fibonacci.hpp"

@@ -1,7 +1,7 @@
 # Copyright © 2021  Neeraj Singhal All rights reserved
 
-cmake_minimum_required(VERSION 3.22)
-project(Mordern_Cpp)
+cmake_minimum_required(VERSION 3.25)
+project(Modern_Cpp)
 
 # Set the compiler options
 set(CMAKE_CXX_STANDARD 20) # > Set cmake Cxx standard to 11/14/17/20

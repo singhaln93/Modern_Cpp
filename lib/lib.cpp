@@ -1,7 +1,6 @@
 /**
  * @file lib.cpp
- * Copyright © 2021  Neeraj Singhal
- * All rights reserved
+ * @author Neeraj Singhal
  */
 
 #include "lib.hpp"
