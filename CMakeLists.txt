@@ -1,7 +1,13 @@
-# Copyright © 2021  Neeraj Singhal All rights reserved
+# Copyright © 2023 Neeraj Singhal
+# All rights reserved
 
 cmake_minimum_required(VERSION 3.25)
-project(Modern_Cpp)
+# CMAKE_VERSION <major>.<minor>.<date>(YYMMDD) or <patch>
+project(
+  Modern_Cpp
+  VERSION 0.0.230102
+  LANGUAGES CXX)
+message("-- PROJECT = ${CMAKE_PROJECT_NAME} v${CMAKE_PROJECT_VERSION}")
 
 # Set the compiler options
 set(CMAKE_CXX_STANDARD 20) # > Set cmake Cxx standard to 11/14/17/20
