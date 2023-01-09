@@ -1,0 +1,26 @@
+name: Codecov CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up C++
+        uses: actions/setup-cpp@v1
+      - name: Install dependencies
+        run: |
+          # Install any dependencies you need here
+      - name: Build and test
+        run: |
+          # Build your project and run tests here
+          # Make sure to generate code coverage data in a format that Codecov can understand
+          # For example, using gcov:
+            g++ -fprofile-arcs -ftest-coverage my_program.cpp
+            ./a.out
+            gcov my_program.cpp
+      - name: Upload coverage data
+        run: |
+          codecov
